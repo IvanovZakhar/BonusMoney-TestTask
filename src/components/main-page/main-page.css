@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'SegoeUIBold';
+    src: url('./../../res/fonts/SegoeUIBold/SegoeUIBold.woff') format('woff'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SegoeUIRegular';
+    src: url('./../../res/fonts/SegoeUIRegular/SegoeUIRegular.woff') format('woff'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
+.main-page{
+    height: 100vh;
+    overflow-y:auto
+}
+
+h3{
+    font-family: 'SegoeUIRegular';
+    color: #2688eb; 
+    font-weight: normal;  
+    margin: 0;
+
+}
+
+.managing-maps{
+    background-color: white;
+    width: 100%; 
+    padding-top: 4vw;
+    padding-bottom: 2vw;
+}
+
+p{
+    font-family: 'SegoeUIRegular';
+    color: #1a1a1a;
+    margin: 0;
+    margin-top: 2vw;
+}
+
+.loading-component{
+    margin-top: 20px;
+}

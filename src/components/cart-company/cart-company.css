@@ -1,0 +1,140 @@
+
+@font-face {
+    font-family: 'SegoeUIBold';
+    src: url('./../../res/fonts/SegoeUIBold/SegoeUIBold.woff') format('woff'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SegoeUIRegular';
+    src: url('./../../res/fonts/SegoeUIRegular/SegoeUIRegular.woff') format('woff'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.cart-company{ 
+    border-radius: 20px;
+    margin: 20px 20px 0px 20px;
+    padding: 20px;
+}
+
+
+h2{
+    font-family: 'SegoeUIRegular';
+    color: #2688eb; 
+    font-weight: normal;  
+    margin: 0;
+    color: black; 
+    margin-top: 5px;
+    padding: 0;
+}
+
+.logo-company{
+    width: 100px;
+    border-radius: 50%;
+}
+
+.head{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #efefef;
+    padding-bottom: 10px;
+}
+
+h4{
+    color: black;
+    margin: 0;
+    font-family: 'SegoeUIRegular';
+    font-size: 44px;
+    padding: 0;
+}
+
+.number-points{
+    display: flex;
+    margin-top: 20px; 
+}
+
+.number-points__item{
+    margin: 0;
+    margin-left: 20px;
+    padding-top: 17px;
+}
+
+p{
+    color: #757171;
+    margin: 0;
+    font-family: 'SegoeUIRegular';
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.other{
+    display: flex;
+    margin-top: 30px;
+    border-bottom: 2px solid #efefef;
+    padding-bottom: 10px ;
+}
+
+.other-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    margin-left: 50px;
+}
+
+.other-item:first-child{
+    margin-left: 0;
+}
+
+h5{
+    color: black;
+    margin: 0;
+    font-family: 'SegoeUIRegular'; 
+}
+
+.other-item__name{
+    margin: 0; 
+    font-size: 20px;
+    padding: 0;
+}
+
+button{
+    background-color: white;
+    border: 0px;  
+    position: relative;
+    display:  inline-block;
+    cursor: pointer;
+}
+
+.buttons{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px 0px 20px;
+}
+
+ 
+
+.eye-img, .trash-img{
+    width: 4vw;
+}
+
+ 
+
+.last-btn__buttons__cart-company{ 
+    padding: 0;  
+    background-color: #efefef;
+    width: 150px;
+    height: 50px;
+    border-radius: 15px; 
+    font-family: 'SegoeUIRegular';
+    color: #2688eb;  
+    margin: 0; 
+    font-size: 20px;
+    margin-top: 0px;
+
+    
+}
